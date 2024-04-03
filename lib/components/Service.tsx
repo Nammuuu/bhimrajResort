@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { StaticImageData } from 'next/image';
 
 const Service = ({ data }: { data: {png: StaticImageData,name : string} }) => {
   return (

@@ -14,6 +14,7 @@ import roomService from "../assets/icons/service_icons/icons8-service-bell-50.pn
 import pool from "../assets/icons/service_icons/icons8-swimming-50.png";
 import ac from "../assets/icons/service_icons/icons8-air-conditioner-50.png";
 import wifiService from "../assets/icons/service_icons/icons8-wi-fi-50.png";
+import { StaticImageData } from 'next/image';
 
 export const icons = {
   bath: { name: "bathroom", png: bath },

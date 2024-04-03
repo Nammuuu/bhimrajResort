@@ -16,6 +16,8 @@ import Animate from "../../lib/components/Animate";
 import RoomDetails, { Span } from "../../lib/components/RoomDetails";
 import { icons, serviceIcons } from "../../lib/components/icons";
 import Image from "next/image";
+import { StaticImageData } from 'next/image';
+
 
 const DeluxeRoom = () => {
   return (

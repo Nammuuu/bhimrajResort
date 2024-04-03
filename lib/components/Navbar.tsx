@@ -1,3 +1,4 @@
+import { StaticImageData } from 'next/image';
 import Link from "next/link";
 import React, { useState } from "react";
 import DropDownLink from "./DropDownLink";

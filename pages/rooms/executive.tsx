@@ -3,7 +3,7 @@ import Layout from "../../lib/components/Layout";
 import RoomCard from "../../lib/components/RoomCard";
 import RoomLayout from "../../lib/components/RoomLayout";
 import roomImg from "../../lib/assets/rooms/exec/photo_2022-01-17_15-34-36.jpg";
-
+import { StaticImageData } from 'next/image';
 import img1 from "../../lib/assets/rooms/exec/images/photo_2022-01-30_18-44-53.jpg";
 import img2 from "../../lib/assets/rooms/exec/images/photo_2022-01-30_18-44-54.jpg";
 import img3 from "../../lib/assets/rooms/exec/images/photo_2022-01-30_18-45-07.jpg";

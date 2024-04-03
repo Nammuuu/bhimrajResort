@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { icons } from "./icons";
 import { BookNow } from "./Navbar";
 import Service from "./Service";
-
+import { StaticImageData } from 'next/image';
 const RoomDetails = ({
   longtext,
   details,

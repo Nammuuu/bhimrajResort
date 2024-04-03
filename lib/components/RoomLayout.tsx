@@ -3,7 +3,7 @@ import Hero from "./Hero";
 import FancyText from "./FancyText";
 import Image from "next/image";
 import Animate from "./Animate";
-
+import { StaticImageData } from 'next/image';
 const RoomLayout = ({
   children,
   name,
