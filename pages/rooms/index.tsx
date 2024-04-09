@@ -6,6 +6,13 @@ import execRoomImg from "../../lib/assets/rooms/exec/photo_2022-01-17_15-34-36.j
 import deluxeRoomImg from "../../lib/assets/rooms/deluxe/photo_2022-01-17_15-32-51.jpg";
 import suiteRoomImg from "../../lib/assets/rooms/suite/photo_2022-01-17_15-37-37.jpg";
 
+
+// add grand + maharaja 
+
+import maha from "../../lib/assets/new/maha.jpeg";
+import grand from "../../lib/assets/new/gra.jpeg";
+
+
 import Head from "next/head";
 import Image from "next/image";
 import Animate from "../../lib/components/Animate";
@@ -21,7 +28,7 @@ const RoomPage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Head>
       <RoomLayout name="rooms" bg={roomImg} imgarr={[]}>
-        <section className="max-w-6xl px-6 flex flex-col lg:flex-row m-auto gap-12 justify-left my-12">
+        <section className="max-w-6xl px-6 flex flex-col lg:flex-row m-auto flex-wrap gap-12 justify-left my-12">
           {[
             {
               image: suiteRoomImg,
@@ -42,16 +49,16 @@ const RoomPage = () => {
               slug: "deluxe",
             },
             {
-              image: deluxeRoomImg,
+              image: grand,
               title: "Grand Executive",
               price: 2500,
-              slug: "GrandExecutive",
+              slug: "grand-executive",
             },
             {
-              image: deluxeRoomImg,
+              image: maha,
               title: "Maharaja Suit",
               price: 2500,
-              slug: "MaharajaSuit",
+              slug: "maharaja",
             },
 
           ].map((room, index) => {

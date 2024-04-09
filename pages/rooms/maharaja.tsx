@@ -4,7 +4,9 @@ import RoomCard from "../../lib/components/RoomCard";
 import RoomLayout from "../../lib/components/RoomLayout";
 // import roomImg from "../../lib/assets/rooms/deluxe/photo_2022-01-17_15-32-51.jpg";
 
-import roomImg from "../../lib/assets/rooms/deluxe/photo_2022-01-17_15-32-51.jpg";
+// import roomImg from "../../lib/assets/rooms/deluxe/photo_2022-01-17_15-32-51.jpg";
+
+import roomImg from "../../lib/assets/new/maha.jpeg";
 
 
 import img1 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-12 (2).jpg";
@@ -14,6 +16,8 @@ import img4 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-14
 import img5 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-14.jpg";
 import img6 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-15.jpg";
 import img7 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-16.jpg";
+
+
 import Head from "next/head";
 import Animate from "../../lib/components/Animate";
 import RoomDetails, { Span } from "../../lib/components/RoomDetails";

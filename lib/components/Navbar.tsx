@@ -119,6 +119,8 @@ const Navbar = () => {
                   <Link href="/rooms/deluxe">Deluxe</Link>
                   <Link href="/rooms/suite">Suite</Link>
                   <Link href="/rooms/executive">Executive</Link>
+                  <Link href={"/rooms/grand-executive"}>Grand Executive</Link>
+                  <Link href={"/rooms/maharaja"}>Maharaja Suit</Link>
                 </ul>
               </span>
             )}

@@ -3,7 +3,8 @@ import Layout from "../../lib/components/Layout";
 import RoomCard from "../../lib/components/RoomCard";
 import RoomLayout from "../../lib/components/RoomLayout";
 // import roomImg from "../../lib/assets/rooms/deluxe/photo_2022-01-17_15-32-51.jpg";
-import roomImg from "../../lib/assets/rooms/maharaja/images/bg.jpeg";
+// import roomImg from "../../lib/assets/rooms/maharaja/images/bg.jpeg";
+import roomImg from "../../lib/assets/new/gra.jpeg";
 
 
 import img1 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-12 (2).jpg";
