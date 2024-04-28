@@ -9,8 +9,11 @@ import suiteRoomImg from "../../lib/assets/rooms/suite/photo_2022-01-17_15-37-37
 
 // add grand + maharaja 
 
-import maha from "../../lib/assets/new/maha.jpeg";
-import grand from "../../lib/assets/new/gra.jpeg";
+// import maha from "../../lib/assets/new/maha.jpeg";
+// import grand from "../../lib/assets/new/gra.jpeg";
+
+import maha from "../../lib/assets/newimg/maharaja/IMG_20230706_111526_995.jpg";
+import grand from "../../lib/assets/newimg/grand/IMG_20230706_111527_170.jpg";
 
 
 import Head from "next/head";
@@ -43,7 +46,7 @@ const RoomPage = () => {
               price: 2500,
               slug: "grand-executive",
             },
-            
+
             {
               image: suiteRoomImg,
               title: "Luxury Suite Room",

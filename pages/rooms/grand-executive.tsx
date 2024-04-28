@@ -46,7 +46,7 @@ const grand = () => {
                   description:
                     "The suite features a luxurious king-sized bed draped in the finest linens and adorned with lavish accents. Elegant touches such as ornate chandeliers and intricately carved furnishings evoke a sense of timeless refinement.",
                   rate: "₹3500/Night",
-                  title: "Grand executive ROOM",
+                  title: "Grand Executive Room",
                 }}
                 src={roomImg}
                 learnMore={false}
