@@ -247,7 +247,7 @@ import Image2 from "../lib/assets/carousel/BR RESORT MAIN FRONT PHOTO (1).jpg";
 import Image3 from "../lib/assets/carousel/BR RESORT MAIN FRONT PHOTO (1).jpg";
 // Import other static images as needed...
 
-const Gallery = () => {
+const gallery = () => {
   return (
     <Layout>
       <Head>
@@ -276,7 +276,7 @@ const Gallery = () => {
   );
 };
 
-export default Gallery;
+export default gallery;
 
 const LoadImage = ({ url, caption }: { url: any; caption: string }) => {
   return (
