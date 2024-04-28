@@ -252,7 +252,7 @@ import Image4 from "../lib/assets/newimg/gallary/Br pool.jpg";
 // import Image18 from "../lib/assets/newimg/gallary/2.jpg";
 // import Image17 from "../lib/assets/newimg/gallary/3.jpg";
 
-import Image16 from "../lib/assets/newimg/gallary/DSC_2478.jpg";
+// import Image16 from "../lib/assets/newimg/gallary/DSC_2478.jpg";
 
 import Image5 from "../lib/assets/newimg/gallary/DSC00081.jpg";
 import Image6 from "../lib/assets/newimg/gallary/DSC09662.jpg";
@@ -315,9 +315,9 @@ const gallery = () => {
             <LoadImage url={Image17} caption="Caption 3" />
           </div> */}
 
-          <div className="flex flex-col items-center">
+          {/* <div className="flex flex-col items-center">
             <LoadImage url={Image16} caption="Caption 3" />
-          </div>
+          </div> */}
 
           <div className="flex flex-col items-center">
             <LoadImage url={Image5} caption="Caption 3" />
