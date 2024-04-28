@@ -8,6 +8,9 @@ import service1 from "../lib/assets/services/WhatsApp Image 2022-01-11 at 3.54.1
 import service2 from "../lib/assets/services/WhatsApp Image 2022-01-11 at 3.54.19 PM.jpeg";
 import service3 from "../lib/assets/services/br pool.jpg";
 import service4 from "../lib/assets/services/xuanming-U5epRU6sY_A-unsplash.jpg";
+import service5 from "../lib/assets/newimg/wedding/0F4A2648.jpg";
+
+
 
 import HeroCarousel from "../lib/components/HeroCarousel";
 import FancyText from "../lib/components/FancyText";
@@ -91,6 +94,7 @@ const Home = () => {
               </a>
               <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
             </div>
+
             <div className="w-full relative min-h-[30rem]">
               <Image
                 placeholder="blur"
@@ -107,6 +111,7 @@ const Home = () => {
               </a>
               <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
             </div>
+
             <div className="w-full relative min-h-[30rem]">
               <Image
                 placeholder="blur"
@@ -123,9 +128,30 @@ const Home = () => {
               </a>
               <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
             </div>
+
+            <div className="w-full relative min-h-[30rem]">
+              <Image
+                placeholder="blur"
+                src={service5}
+                objectFit="cover"
+                layout="fill"
+                alt="WEDDING Image"
+              ></Image>
+              <a
+                href="#"
+                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white uppercase font-semibold text-xl drop-shadow-lg z-[1]"
+              >
+                WEDDING
+              </a>
+              <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
+            </div>
+
+
+
           </div>
         </section>
       </Animate>
+
       <Animate animateIn="animate__fadeIn">
         <section className="text-center w-full py-12">
           <div>
@@ -155,6 +181,7 @@ const Home = () => {
           </div>
         </section>
       </Animate>
+
     </Layout>
   );
 };

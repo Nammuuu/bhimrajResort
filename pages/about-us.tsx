@@ -1,7 +1,10 @@
 import React from "react";
 import Hero from "../lib/components/Hero";
 import Layout from "../lib/components/Layout";
-import hero from "../lib/assets/carousel/BR RESORT MAIN FRONT PHOTO (1).jpg";
+
+import hero from "../lib/assets/new/BR.jpg";
+
+// import hero from "../lib/assets/carousel/BR RESORT MAIN FRONT PHOTO (1).jpg";
 import FancyText from "../lib/components/FancyText";
 import sectionimg from "../lib/assets/about/aboutus.jpg";
 import Image from "next/image";

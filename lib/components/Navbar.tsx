@@ -50,21 +50,29 @@ const Navbar = () => {
         </Link>
         <DropDownLink href="/rooms" linkText="Rooms">
           <div className="flex flex-col text-gray-400 space-y-2 font-semibold">
-            <span className="hover:text-khaki transition-all">
-              <Link href={"/rooms/suite"}>suite</Link>
-            </span>
-            <span className="hover:text-khaki transition-all">
-              <Link href={"/rooms/executive"}>executive</Link>
-            </span>
-            <span className="hover:text-khaki transition-all">
-              <Link href={"/rooms/deluxe"}>deluxe</Link>
+
+          <span className="hover:text-khaki transition-all">
+              <Link href={"/rooms/maharaja"}>Maharaja Suite</Link>
             </span>
             <span className="hover:text-khaki transition-all">
               <Link href={"/rooms/grand-executive"}>Grand Executive</Link>
             </span>
+
             <span className="hover:text-khaki transition-all">
-              <Link href={"/rooms/maharaja"}>Maharaja Suit</Link>
+              <Link href={"/rooms/suite"}>Luxury Suite</Link>
             </span>
+            <span className="hover:text-khaki transition-all">
+              <Link href={"/rooms/executive"}>Luxury Executive</Link>
+            </span>
+            <span className="hover:text-khaki transition-all">
+              <Link href={"/rooms/deluxe"}>Deluxe</Link>
+            </span>
+
+           
+
+            
+
+
           </div>
         </DropDownLink>
 
@@ -116,11 +124,13 @@ const Navbar = () => {
             {roomDropDown && (
               <span className="pl-4 w-full text-left">
                 <ul className="flex flex-col space-y-3">
+                <Link href={"/rooms/maharaja"}>Maharaja Suite</Link>
+                <Link href={"/rooms/grand-executive"}>Grand Executive</Link>
+                  
+                  <Link href="/rooms/suite">Luxury Suite</Link>
+                  <Link href="/rooms/executive">Luxury Executive</Link>
                   <Link href="/rooms/deluxe">Deluxe</Link>
-                  <Link href="/rooms/suite">Suite</Link>
-                  <Link href="/rooms/executive">Executive</Link>
-                  <Link href={"/rooms/grand-executive"}>Grand Executive</Link>
-                  <Link href={"/rooms/maharaja"}>Maharaja Suit</Link>
+                  
                 </ul>
               </span>
             )}

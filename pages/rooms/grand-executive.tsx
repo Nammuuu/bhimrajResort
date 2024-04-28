@@ -4,16 +4,22 @@ import RoomCard from "../../lib/components/RoomCard";
 import RoomLayout from "../../lib/components/RoomLayout";
 // import roomImg from "../../lib/assets/rooms/deluxe/photo_2022-01-17_15-32-51.jpg";
 // import roomImg from "../../lib/assets/rooms/maharaja/images/bg.jpeg";
-import roomImg from "../../lib/assets/new/gra.jpeg";
+// import roomImg from "../../lib/assets/new/gra.jpeg";
+
+import roomImg from "../../lib/assets/newimg/grand/IMG_20230706_111527_170.jpg";
 
 
-import img1 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-12 (2).jpg";
-import img2 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-12.jpg";
-import img3 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-13.jpg";
-import img4 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-14 (2).jpg";
-import img5 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-14.jpg";
-import img6 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-15.jpg";
-import img7 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-16.jpg";
+import img1 from "../../lib/assets/newimg/grand/IMG_20230706_111527_156.jpg";
+import img2 from "../../lib/assets/newimg/grand/IMG_20230706_111527_170.jpg";
+import img3 from "../../lib/assets/newimg/grand/IMG_20230706_111527_398.jpg";
+import img4 from "../../lib/assets/newimg/grand/IMG_20230706_111533_540.jpg";
+import img5 from "../../lib/assets/newimg/grand/IMG_20230706_111533_855.jpg";
+
+
+// import img6 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-15.jpg";
+// import img7 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-16.jpg";
+
+
 import Head from "next/head";
 import Animate from "../../lib/components/Animate";
 import RoomDetails, { Span } from "../../lib/components/RoomDetails";
@@ -30,7 +36,7 @@ const grand = () => {
           <RoomLayout
             name="Grand Executive"
             bg={roomImg}
-            imgarr={[img1, img2, img3, img4, img5, img6, img7]}
+            imgarr={[img1, img2, img3, img4, img5]}
           >
             <Animate animateIn="animate__fadeIn">
               <RoomCard

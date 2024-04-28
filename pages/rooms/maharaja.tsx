@@ -6,16 +6,29 @@ import RoomLayout from "../../lib/components/RoomLayout";
 
 // import roomImg from "../../lib/assets/rooms/deluxe/photo_2022-01-17_15-32-51.jpg";
 
-import roomImg from "../../lib/assets/new/maha.jpeg";
+// import roomImg from "../../lib/assets/new/maha.jpeg";
+import roomImg from "../../lib/assets/newimg/maharaja/IMG_20230706_111526_995.jpg";
 
 
-import img1 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-12 (2).jpg";
-import img2 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-12.jpg";
-import img3 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-13.jpg";
-import img4 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-14 (2).jpg";
-import img5 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-14.jpg";
-import img6 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-15.jpg";
-import img7 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-16.jpg";
+// import img1 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-12 (2).jpg";
+// import img2 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-12.jpg";
+// import img3 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-13.jpg";
+// import img4 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-14 (2).jpg";
+
+// import img5 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-14.jpg";
+// import img6 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-15.jpg";
+// import img7 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-16.jpg";
+
+import img1 from "../../lib/assets/newimg/maharaja/IMG_20230706_111526_658.jpg";
+import img2 from "../../lib/assets/newimg/maharaja/IMG_20230706_111526_658.jpg";
+import img3 from "../../lib/assets/newimg/maharaja/IMG_20230706_111527_294.jpg";
+import img4 from "../../lib/assets/newimg/maharaja/WhatsApp Image 2023-07-12 at 10.41.29 AM.jpeg";
+
+// import img5 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-14.jpg";
+// import img6 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-15.jpg";
+// import img7 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-16.jpg";
+
+
 
 
 import Head from "next/head";
@@ -28,13 +41,13 @@ const maharaja = () => {
     return (
         <Layout>
           <Head>
-            <title>Bhimraj Resort | Maharaja Suit Room</title>
+            <title>Bhimraj Resort | Maharaja Suite Room</title>
             <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
           </Head>
           <RoomLayout
-            name="Maharaja Suit"
+            name="Maharaja Suite"
             bg={roomImg}
-            imgarr={[img1, img2, img3, img4, img5, img6, img7]}
+            imgarr={[img1, img2, img3, img4]}
           >
             <Animate animateIn="animate__fadeIn">
               <RoomCard
@@ -44,7 +57,7 @@ const maharaja = () => {
                   description:
                     "Maharaja suit - The highlight of the suite is undoubtedly the private balcony, offering sweeping views of the surrounding landscape. Guests can unwind in the beautiful bathtub, as you sink into the warm, bubbling water, your gaze is drawn to the breathtaking view beyond the glass while taking in the breathtaking bath .",
                   rate: "₹6000/Night",
-                  title: "MAHARAJA SUIT ROOM",
+                  title: "MAHARAJA SUITE ROOM",
                 }}
                 src={roomImg}
                 learnMore={false}

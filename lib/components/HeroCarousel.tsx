@@ -6,7 +6,8 @@ import { motion } from "framer-motion";
 
 import img2 from "../assets/new/BR.jpg";
 // import img2 from "../assets/carousel/BR RESORT MAIN FRONT PHOTO (1).jpg";
-import img1 from "../assets/carousel/br pool.jpg";
+// import img1 from "../assets/carousel/br pool.jpg";
+import img1 from "../assets/newimg/resort/DSC_9103.jpg";
 
 import { Swiper, SwiperProps, SwiperSlide } from "swiper/react";
 

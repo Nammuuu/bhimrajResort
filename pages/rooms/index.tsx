@@ -31,6 +31,20 @@ const RoomPage = () => {
         <section className="max-w-6xl px-6 flex flex-col lg:flex-row m-auto flex-wrap gap-12 justify-left my-12">
           {[
             {
+              image: maha,
+              title: "Maharaja Suite",
+              price: 2500,
+              slug: "maharaja",
+            },
+
+            {
+              image: grand,
+              title: "Grand Executive",
+              price: 2500,
+              slug: "grand-executive",
+            },
+            
+            {
               image: suiteRoomImg,
               title: "Luxury Suite Room",
               price: 3800,
@@ -48,18 +62,8 @@ const RoomPage = () => {
               price: 2500,
               slug: "deluxe",
             },
-            {
-              image: grand,
-              title: "Grand Executive",
-              price: 2500,
-              slug: "grand-executive",
-            },
-            {
-              image: maha,
-              title: "Maharaja Suit",
-              price: 2500,
-              slug: "maharaja",
-            },
+            
+            
 
           ].map((room, index) => {
             return (
