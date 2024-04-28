@@ -248,9 +248,9 @@ import Image3 from "../lib/assets/newimg/gallary/Br 1-1.jpg";
 
 
 import Image4 from "../lib/assets/newimg/gallary/Br pool.jpg";
-import Image19 from "../lib/assets/newimg/gallary/1.jpg";
-import Image18 from "../lib/assets/newimg/gallary/2.jpg";
-import Image17 from "../lib/assets/newimg/gallary/3.jpg";
+// import Image19 from "../lib/assets/newimg/gallary/1.jpg";
+// import Image18 from "../lib/assets/newimg/gallary/2.jpg";
+// import Image17 from "../lib/assets/newimg/gallary/3.jpg";
 
 import Image16 from "../lib/assets/newimg/gallary/DSC_2478.jpg";
 
@@ -303,7 +303,7 @@ const gallery = () => {
             <LoadImage url={Image4} caption="Caption 3" />
           </div>
 
-          <div className="flex flex-col items-center">
+          {/* <div className="flex flex-col items-center">
             <LoadImage url={Image19} caption="Caption 3" />
           </div>
 
@@ -313,7 +313,7 @@ const gallery = () => {
 
           <div className="flex flex-col items-center">
             <LoadImage url={Image17} caption="Caption 3" />
-          </div>
+          </div> */}
 
           <div className="flex flex-col items-center">
             <LoadImage url={Image16} caption="Caption 3" />
