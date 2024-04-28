@@ -242,9 +242,38 @@ import Head from "next/head";
 import Image from "next/image";
 
 
-import Image1 from "../lib/assets/carousel/BR RESORT MAIN FRONT PHOTO (1).jpg";
-import Image2 from "../lib/assets/carousel/BR RESORT MAIN FRONT PHOTO (1).jpg";
-import Image3 from "../lib/assets/carousel/BR RESORT MAIN FRONT PHOTO (1).jpg";
+import Image1 from "../lib/assets/newimg/gallary/BR 1.jpg";
+import Image2 from "../lib/assets/newimg/gallary/BR 2.jpg";
+import Image3 from "../lib/assets/newimg/gallary/Br 1-1.jpg";
+
+
+import Image4 from "../lib/assets/newimg/gallary/Br pool.jpg";
+import Image19 from "../lib/assets/newimg/gallary/1.jpg";
+import Image18 from "../lib/assets/newimg/gallary/2.jpg";
+import Image17 from "../lib/assets/newimg/gallary/3.jpg";
+
+import Image16 from "../lib/assets/newimg/gallary/DSC_2478.jpg";
+
+import Image5 from "../lib/assets/newimg/gallary/DSC00081.jpg";
+import Image6 from "../lib/assets/newimg/gallary/DSC09662.jpg";
+
+import Image7 from "../lib/assets/newimg/gallary/DSC_2461 copy.jpg";
+
+import Image8 from "../lib/assets/newimg/gallary/DSC_7656.jpg";
+import Image9 from "../lib/assets/newimg/gallary/DSC_7681.jpg";
+import Image10 from "../lib/assets/newimg/gallary/DSC_8442.jpg";
+
+import Image11 from "../lib/assets/newimg/gallary/DSC_8446.jpg";
+import Image12 from "../lib/assets/newimg/gallary/DSC_8653.jpg";
+import Image13 from "../lib/assets/newimg/gallary/DSC_8680.jpg";
+import Image14 from "../lib/assets/newimg/gallary/DSC_9112.jpg02.jpg";
+
+import Image15 from "../lib/assets/newimg/gallary/IMG_3094.jpg";
+
+
+
+
+
 // Import other static images as needed...
 
 const gallery = () => {
@@ -266,9 +295,81 @@ const gallery = () => {
           <div className="flex flex-col items-center">
             <LoadImage url={Image2} caption="Caption 2" />
           </div>
+
           <div className="flex flex-col items-center">
             <LoadImage url={Image3} caption="Caption 3" />
           </div>
+          <div className="flex flex-col items-center">
+            <LoadImage url={Image4} caption="Caption 3" />
+          </div>
+
+          <div className="flex flex-col items-center">
+            <LoadImage url={Image19} caption="Caption 3" />
+          </div>
+
+          <div className="flex flex-col items-center">
+            <LoadImage url={Image18} caption="Caption 3" />
+          </div>
+
+          <div className="flex flex-col items-center">
+            <LoadImage url={Image17} caption="Caption 3" />
+          </div>
+
+          <div className="flex flex-col items-center">
+            <LoadImage url={Image16} caption="Caption 3" />
+          </div>
+
+          <div className="flex flex-col items-center">
+            <LoadImage url={Image5} caption="Caption 3" />
+          </div>
+
+          <div className="flex flex-col items-center">
+            <LoadImage url={Image6} caption="Caption 3" />
+          </div>
+          <div className="flex flex-col items-center">
+            <LoadImage url={Image7} caption="Caption 3" />
+          </div>
+
+
+          <div className="flex flex-col items-center">
+            <LoadImage url={Image8} caption="Caption 3" />
+          </div>
+
+          <div className="flex flex-col items-center">
+            <LoadImage url={Image9} caption="Caption 3" />
+          </div>
+          <div className="flex flex-col items-center">
+            <LoadImage url={Image10} caption="Caption 3" />
+          </div>
+
+
+          <div className="flex flex-col items-center">
+            <LoadImage url={Image11} caption="Caption 3" />
+          </div>
+
+          <div className="flex flex-col items-center">
+            <LoadImage url={Image12} caption="Caption 3" />
+          </div>
+          <div className="flex flex-col items-center">
+            <LoadImage url={Image13} caption="Caption 3" />
+          </div>
+
+
+          <div className="flex flex-col items-center">
+            <LoadImage url={Image14} caption="Caption 3" />
+          </div>
+
+          <div className="flex flex-col items-center">
+            <LoadImage url={Image15} caption="Caption 3" />
+          </div>
+          
+
+
+
+
+
+
+
           {/* Add more images as needed */}
         </div>
       </section>
