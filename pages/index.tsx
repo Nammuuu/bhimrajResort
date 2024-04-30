@@ -2,7 +2,9 @@ import React from "react";
 
 import Image from "next/image";
 
-import img1 from "../lib/assets/rooms/suite/photo_2022-01-17_15-37-37.jpg";
+// import img1 from "../lib/assets/rooms/suite/photo_2022-01-17_15-37-37.jpg";
+
+import img1 from "../lib/assets/newimg/maharaja/IMG_20230706_111526_995.jpg";
 
 import service1 from "../lib/assets/services/WhatsApp Image 2022-01-11 at 3.54.18 PM (1).jpeg";
 import service2 from "../lib/assets/services/WhatsApp Image 2022-01-11 at 3.54.19 PM.jpeg";
@@ -60,7 +62,26 @@ const Home = () => {
               Services
             </FancyText>
           </header>
-          <div className="w-[90%] m-auto grid gap-12 my-12 grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
+          {/* <div className="w-[90%] m-auto grid gap-12 my-12 grid-cols-1 sm:grid-cols-2 md:grid-cols-4"> */}
+          <div className="w-[90%] m-auto grid gap-12 my-12 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+
+          <div className="w-full relative min-h-[30rem]">
+              <Image
+                placeholder="blur"
+                src={service5}
+                objectFit="cover"
+                layout="fill"
+                alt="WEDDING Image"
+              ></Image>
+              <a
+                href="#"
+                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white uppercase font-semibold text-xl drop-shadow-lg z-[1]"
+              >
+                WEDDING
+              </a>
+              <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
+            </div>
+
             <div className="w-full relative min-h-[30rem]">
               <Image
                 placeholder="blur"
@@ -129,22 +150,7 @@ const Home = () => {
               <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
             </div>
 
-            <div className="w-full relative min-h-[30rem]">
-              <Image
-                placeholder="blur"
-                src={service5}
-                objectFit="cover"
-                layout="fill"
-                alt="WEDDING Image"
-              ></Image>
-              <a
-                href="#"
-                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white uppercase font-semibold text-xl drop-shadow-lg z-[1]"
-              >
-                WEDDING
-              </a>
-              <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
-            </div>
+            
 
 
 
@@ -165,9 +171,9 @@ const Home = () => {
               roomData={{
                 caption: "A quality room with sea or mountain view",
                 description:
-                  "Luxury Suite Room - Luxury Suite Room has a comfortable king size bed, a separate sitting room, separate desk and bathroom with walk-in rain dance shower.",
-                rate: "₹3800/Night",
-                title: "LUXURY SUITE ROOM",
+                  "Maharaja suit - The highlight of the suite is undoubtedly the private balcony, offering sweeping views of the surrounding landscape. Guests can unwind in the beautiful bathtub, as you sink into the warm, bubbling water, your gaze is drawn to the breathtaking view beyond the glass while taking in the breathtaking bath",
+                rate: "₹6000/Night",
+                title: "MAHARAJA SUITE ROOM",
               }}
               src={img1}
               learnMore={false}

@@ -242,6 +242,7 @@ import Head from "next/head";
 import Image from "next/image";
 
 
+
 import Image1 from "../lib/assets/newimg/gallary/BR 1.jpg";
 import Image2 from "../lib/assets/newimg/gallary/BR 2.jpg";
 import Image3 from "../lib/assets/newimg/gallary/Br 1-1.jpg";
@@ -290,77 +291,78 @@ const gallery = () => {
         </FancyText>
         <div className="m-auto flex flex-wrap justify-center relative w-11/12 md:w-4/5  mt-24 gap-4">
           <div className="flex flex-col items-center">
-            <LoadImage url={Image1} caption="Caption 1" />
-          </div>
-          <div className="flex flex-col items-center">
-            <LoadImage url={Image2} caption="Caption 2" />
+            <LoadImage url={Image1} caption="" />
           </div>
 
           <div className="flex flex-col items-center">
-            <LoadImage url={Image3} caption="Caption 3" />
+            <LoadImage url={Image2} caption="" />
+          </div>
+
+          <div className="flex flex-col items-center">
+            <LoadImage url={Image3} caption=" " />
           </div>
           <div className="flex flex-col items-center">
-            <LoadImage url={Image4} caption="Caption 3" />
+            <LoadImage url={Image4} caption=" " />
           </div>
 
           {/* <div className="flex flex-col items-center">
-            <LoadImage url={Image19} caption="Caption 3" />
+            <LoadImage url={Image19} caption=" " />
           </div>
 
           <div className="flex flex-col items-center">
-            <LoadImage url={Image18} caption="Caption 3" />
+            <LoadImage url={Image18} caption=" " />
           </div>
 
           <div className="flex flex-col items-center">
-            <LoadImage url={Image17} caption="Caption 3" />
+            <LoadImage url={Image17} caption=" " />
           </div> */}
 
           {/* <div className="flex flex-col items-center">
-            <LoadImage url={Image16} caption="Caption 3" />
+            <LoadImage url={Image16} caption=" " />
           </div> */}
 
           <div className="flex flex-col items-center">
-            <LoadImage url={Image5} caption="Caption 3" />
+            <LoadImage url={Image5} caption="" />
           </div>
 
           <div className="flex flex-col items-center">
-            <LoadImage url={Image6} caption="Caption 3" />
+            <LoadImage url={Image6} caption="" />
           </div>
           <div className="flex flex-col items-center">
-            <LoadImage url={Image7} caption="Caption 3" />
-          </div>
-
-
-          <div className="flex flex-col items-center">
-            <LoadImage url={Image8} caption="Caption 3" />
-          </div>
-
-          <div className="flex flex-col items-center">
-            <LoadImage url={Image9} caption="Caption 3" />
-          </div>
-          <div className="flex flex-col items-center">
-            <LoadImage url={Image10} caption="Caption 3" />
+            <LoadImage url={Image7} caption="" />
           </div>
 
 
           <div className="flex flex-col items-center">
-            <LoadImage url={Image11} caption="Caption 3" />
+            <LoadImage url={Image8} caption=" " />
           </div>
 
           <div className="flex flex-col items-center">
-            <LoadImage url={Image12} caption="Caption 3" />
+            <LoadImage url={Image9} caption=" " />
           </div>
           <div className="flex flex-col items-center">
-            <LoadImage url={Image13} caption="Caption 3" />
+            <LoadImage url={Image10} caption=" " />
+          </div>
+
+
+          <div className="flex flex-col items-center">
+            <LoadImage url={Image11} caption=" " />
+          </div>
+
+          <div className="flex flex-col items-center">
+            <LoadImage url={Image12} caption=" " />
+          </div>
+          <div className="flex flex-col items-center">
+            <LoadImage url={Image13} caption=" " />
           </div>
 
 
           <div className="flex flex-col items-center">
-            <LoadImage url={Image14} caption="Caption 3" />
+            <LoadImage url={Image14} caption=" " />
           </div>
 
           <div className="flex flex-col items-center">
-            <LoadImage url={Image15} caption="Caption 3" />
+            <LoadImage url={Image15} caption=" " />
           </div>
           
 
@@ -381,8 +383,8 @@ export default gallery;
 
 const LoadImage = ({ url, caption }: { url: any; caption: string }) => {
   return (
-    <div className="w-60 h-60 relative">
-      <Image src={url} width={300} height={300} layout="responsive" alt="Gallery Image" />
+    <div className="gallery-css w-60 h-60 relative">
+      <Image src={url}  className="gallery-css-2" width={300} height={300} layout="responsive" alt="Gallery Image" />
       <span className="w-full font-sans uppercase text-lg mt-2 text-center">{caption}</span>
     </div>
   );

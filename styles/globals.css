@@ -7,3 +7,13 @@
 html {
     scroll-behavior: smooth;
 }
+
+
+.gallery-css {
+    width: 20rem !important;
+    height: 20rem !important;
+}
+
+.gallery-css-2 {
+    object-fit: contain !important;
+}
