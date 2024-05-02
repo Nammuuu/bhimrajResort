@@ -21,12 +21,16 @@ import roomImg from "../../lib/assets/new-room/maharaja/IMG_20240502_172119_449.
 
 import img1 from "../../lib/assets/new-room/maharaja/IMG_20240502_172138_311.jpg";
 import img2 from "../../lib/assets/new-room/maharaja/IMG_20240502_172130_629.jpg";
-import img3 from "../../lib/assets/new-room/maharaja/IMG_20240502_172128_775.jpg";
+
+import img7 from "../../lib/assets/new-room/maharaja/IMG_20240502_172128_775.jpg";
+
 import img4 from "../../lib/assets/new-room/maharaja/IMG_20240502_172126_162.jpg";
 
 import img5 from "../../lib/assets/new-room/maharaja/IMG_20240502_172123_385.jpg";
 import img6 from "../../lib/assets/new-room/maharaja/IMG_20240502_172121_561.jpg";
-import img7 from "../../lib/assets/new-room/maharaja/IMG_20240502_172119_449.jpg";
+
+import img3 from "../../lib/assets/new-room/maharaja/IMG_20240502_172119_449.jpg";
+
 import img8 from "../../lib/assets/new-room/maharaja/IMG_20240502_172116_252.jpg";
 
 

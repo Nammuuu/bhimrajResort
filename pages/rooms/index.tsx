@@ -46,7 +46,7 @@ const RoomPage = () => {
             {
               image: grand,
               title: "Grand Executive",
-              price: 6000,
+              price: 3500,
               slug: "grand-executive",
             },
 
