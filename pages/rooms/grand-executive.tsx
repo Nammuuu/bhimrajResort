@@ -6,15 +6,16 @@ import RoomLayout from "../../lib/components/RoomLayout";
 // import roomImg from "../../lib/assets/rooms/maharaja/images/bg.jpeg";
 // import roomImg from "../../lib/assets/new/gra.jpeg";
 
-import roomImg from "../../lib/assets/newimg/grand/IMG_20230706_111527_170.jpg";
+import roomImg from "../../lib/assets/new-room/grand/IMG_20240502_172240_022.jpg";
 
 
-import img1 from "../../lib/assets/newimg/grand/IMG_20230706_111527_156.jpg";
-import img2 from "../../lib/assets/newimg/grand/IMG_20230706_111527_170.jpg";
-import img3 from "../../lib/assets/newimg/grand/IMG_20230706_111527_398.jpg";
-import img4 from "../../lib/assets/newimg/grand/IMG_20230706_111533_540.jpg";
-import img5 from "../../lib/assets/newimg/grand/IMG_20230706_111533_855.jpg";
+import img1 from "../../lib/assets/new-room/grand/IMG_20240502_172231_345.jpg";
+import img2 from "../../lib/assets/new-room/grand/IMG_20240502_172233_498.jpg";
+import img3 from "../../lib/assets/new-room/grand/IMG_20240502_172235_297.jpg";
+import img4 from "../../lib/assets/new-room/grand/IMG_20240502_172240_022.jpg";
 
+import img5 from "../../lib/assets/new-room/grand/IMG_20240502_172242_481.jpg";
+import img6 from "../../lib/assets/new-room/grand/IMG_20240502_172237_401.jpg";
 
 // import img6 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-15.jpg";
 // import img7 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-16.jpg";
@@ -36,7 +37,7 @@ const grand = () => {
           <RoomLayout
             name="Grand Executive"
             bg={roomImg}
-            imgarr={[img1, img2, img3, img4, img5]}
+            imgarr={[img1, img2, img3, img4, img5, img6]}
           >
             <Animate animateIn="animate__fadeIn">
               <RoomCard

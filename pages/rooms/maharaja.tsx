@@ -7,7 +7,7 @@ import RoomLayout from "../../lib/components/RoomLayout";
 // import roomImg from "../../lib/assets/rooms/deluxe/photo_2022-01-17_15-32-51.jpg";
 
 // import roomImg from "../../lib/assets/new/maha.jpeg";
-import roomImg from "../../lib/assets/newimg/maharaja/IMG_20230706_111526_995.jpg";
+import roomImg from "../../lib/assets/new-room/maharaja/IMG_20240502_172119_449.jpg";
 
 
 // import img1 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-12 (2).jpg";
@@ -19,15 +19,15 @@ import roomImg from "../../lib/assets/newimg/maharaja/IMG_20230706_111526_995.jp
 // import img6 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-15.jpg";
 // import img7 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-16.jpg";
 
-import img1 from "../../lib/assets/newimg/maharaja/IMG_20230706_111526_658.jpg";
-import img2 from "../../lib/assets/newimg/maharaja/IMG_20230706_111526_658.jpg";
-import img3 from "../../lib/assets/newimg/maharaja/IMG_20230706_111527_294.jpg";
-import img4 from "../../lib/assets/newimg/maharaja/WhatsApp Image 2023-07-12 at 10.41.29 AM.jpeg";
+import img1 from "../../lib/assets/new-room/maharaja/IMG_20240502_172138_311.jpg";
+import img2 from "../../lib/assets/new-room/maharaja/IMG_20240502_172130_629.jpg";
+import img3 from "../../lib/assets/new-room/maharaja/IMG_20240502_172128_775.jpg";
+import img4 from "../../lib/assets/new-room/maharaja/IMG_20240502_172126_162.jpg";
 
-// import img5 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-14.jpg";
-// import img6 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-15.jpg";
-// import img7 from "../../lib/assets/rooms/deluxe/images/photo_2022-01-30_18-44-16.jpg";
-
+import img5 from "../../lib/assets/new-room/maharaja/IMG_20240502_172123_385.jpg";
+import img6 from "../../lib/assets/new-room/maharaja/IMG_20240502_172121_561.jpg";
+import img7 from "../../lib/assets/new-room/maharaja/IMG_20240502_172119_449.jpg";
+import img8 from "../../lib/assets/new-room/maharaja/IMG_20240502_172116_252.jpg";
 
 
 
@@ -47,7 +47,7 @@ const maharaja = () => {
           <RoomLayout
             name="Maharaja Suite"
             bg={roomImg}
-            imgarr={[img1, img2, img3, img4]}
+            imgarr={[img1, img2, img3, img4, img5, img6, img7, img8]}
           >
             <Animate animateIn="animate__fadeIn">
               <RoomCard

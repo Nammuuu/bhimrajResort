@@ -1,7 +1,10 @@
 import React from "react";
 import Layout from "../../lib/components/Layout";
 import RoomLayout from "../../lib/components/RoomLayout";
-import roomImg from "../../lib/assets/rooms/exec/photo_2022-01-17_15-34-36.jpg";
+
+import roomImg from "../../lib/assets/new-room/maharaja/IMG_20240502_172119_449.jpg";
+
+
 import execRoomImg from "../../lib/assets/rooms/exec/photo_2022-01-17_15-34-36.jpg";
 import deluxeRoomImg from "../../lib/assets/rooms/deluxe/photo_2022-01-17_15-32-51.jpg";
 import suiteRoomImg from "../../lib/assets/rooms/suite/photo_2022-01-17_15-37-37.jpg";
@@ -36,14 +39,14 @@ const RoomPage = () => {
             {
               image: maha,
               title: "Maharaja Suite",
-              price: 2500,
+              price: 6000,
               slug: "maharaja",
             },
 
             {
               image: grand,
               title: "Grand Executive",
-              price: 2500,
+              price: 6000,
               slug: "grand-executive",
             },
 
